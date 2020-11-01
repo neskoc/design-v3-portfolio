@@ -1,10 +1,4 @@
----
-Logo: image/miroodles-color-composition-small.png
-Tagline: My portfolio.
-Social:
-    - title: Link till sidans github repo.
-      url: https://github.com/neskoc/design-v3-portfolio
-      icon: github
----
-
-# design-v3-portfolio
+# Desigh v3 Portfolio
+## Assignment within PA1436 H20 lp2 Teknisk webbdesign och användbarhet course (BTH)
+design-v3-portfolio
+url: https://github.com/neskoc/design-v3-portfolio
