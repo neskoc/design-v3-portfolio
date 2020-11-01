@@ -13,7 +13,7 @@ Sedan har jag stött på markdown: hackmd.io inom en annan kurs som jag läst un
 Förutfattade meningar, eller kanske etablerad övertygelse, inom design och användbarhet för webben? Det har vi väl nog alla till en viss grad. Skall jag vara ärlig var det något som jag såg ner på under en lång tid vilket är starkt påverkat av att estetik/design inte är min starka sida. Men de senaste månaderna har jag omvärderat detta i takt med att jag läst på och satt mig i detaljerna.
 
 På tal om förutfattade meningar kan jag fortfarande inte skaka av känslan att jag "slösar" för mycket tid på design.
-Om jag har lagt x antal timmar för att får allt annat lägger jag kanske ytterligare x/2 tiden för att få till design som jag skall vara nöjd med.
+Om jag har lagt x antal timmar för att få till allt annat lägger jag kanske ytterligare x/2 tiden för att få till design som jag skall vara nöjd med.
 Men ju mer jag arbetar med det desto fler verktyg lär jag mig och på det sättet blir arbetet både roligare och utfall bättre för varje iteration.
 
 TIL: Jag har börjat lära mig använda ColorZilla samt en del bildkällor som jag samlat på mig under senaste tiden vilket gör att design känns mer proffsig.
