@@ -5,7 +5,7 @@ Description: This is our index page.
 
 Presentation
 ==========================
->Updated November the 1st 2020
+>Sidan uppdaterades den 1. november 2020
 
 ![profilbild](%assets_url%/img/profile_pic.jpg "Profilbild"){.image .small .float-left}
 

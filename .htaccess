@@ -30,11 +30,8 @@ RewriteRule (.*) index.php/$1 [NC,L]
 # RewriteCond %{REQUEST_FILENAME} !-d
 # RewriteRule ^ index.php [L]
 
-    # Let Pico know about available URL rewriting
-    SetEnv PICO_URL_REWRITING 1
+# Let Pico know about available URL rewriting
+SetEnv PICO_URL_REWRITING 1
 
 # Prevent file browsing
 Options -Indexes -MultiViews
-
-# Testing
-DirectoryIndex index.php index.html index.htm
