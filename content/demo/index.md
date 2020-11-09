@@ -1,6 +1,6 @@
 ---
-Title: Example
-Description: Markdown examples.
+Title: Demo
+Description: Markdown exemplar.
 # hidden: true
 ---
 
