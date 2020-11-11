@@ -17,7 +17,7 @@
     },
     "ignoreFiles": [
         "**/node_modules/",
-        "shared/**/*.scss",
+        "shared/fontawesome/**/*.scss",
         "**/*.css",
         "**/*.min.css"
     ]

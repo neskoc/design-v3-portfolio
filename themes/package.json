@@ -7,7 +7,9 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "stylelint \"**/*.scss\"",
         "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-        "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed"
+        "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
+        "watch": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map --watch",
+        "watch-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed --watch"
     },
     "keywords": [],
     "author": "",
