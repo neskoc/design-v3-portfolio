@@ -1,6 +1,7 @@
 ---
 Title: Redovisning
 Description: The course redovisning page
+icon: fas fa-flag-checkered
 ---
 
 Redovisningssida för design

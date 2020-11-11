@@ -1,9 +1,10 @@
 ---
-Title: Hem
+Title: &#8962; Hem
 Description: This is our index page.
+icon: fas fa-home
 ---
 
-Presentation
+&#8962; Presentation
 ==========================
 >Sidan uppdaterades den 1. november 2020
 
@@ -21,3 +22,5 @@ Ett stort skäl till att jag valt att läsa denna utbildning är just planerna p
 
 En kuriösa är att jag av en slump valt pico som verktyg för den externa presentationen.
 Jag letade efter ett lättvikt CMS och efter lite efterforskning valet föll på pico.
+
+Vill du komma i kontakt på telefon kan du klicka på  <a href='tel:0123456789'>&#128222;</a> (det är bara ett påhittat nummer för att testa unicode icon).

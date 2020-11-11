@@ -3,8 +3,6 @@
  * Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&family=Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dekko&display=swap");
 .fa,
 .fas,
 .far,
@@ -6458,6 +6456,16 @@ template {
   display: none;
 }
 
+@font-face {
+  font-family: "Dekko";
+  src: url("../../shared/fonts/google/Dekko-Regular.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../../shared/fonts/google/PermanentMarker-Regular.ttf");
+  font-display: swap;
+}
 * {
   font-family: "Dekko";
   box-sizing: border-box;
@@ -6547,12 +6555,12 @@ body {
 .title,
 .logo {
   float: left;
-  padding: 3em 3em 3em 0;
+  padding: 3em 3em 2em 0;
 }
 
 .title * {
   margin: 0;
-  color: #111;
+  color: #0a2b33;
 }
 
 .title p {
@@ -6560,7 +6568,7 @@ body {
 }
 
 .logo {
-  height: 10.8em;
+  height: 13.5em;
 }
 
 .logo * {
@@ -6596,22 +6604,23 @@ body {
   margin-left: 1em;
   padding: 0;
   font-weight: bold;
+  font-size: 1.25em;
 }
 
 .nav a,
 .nav-toggle {
-  color: #333;
+  color: #75b7c8;
 }
 
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-  color: #3b440d;
+  color: #0a2b33;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-  color: #3b440d;
+  color: #2d636f;
   text-decoration: underline;
 }
 
@@ -6748,6 +6757,24 @@ body {
     padding: 0.5em 0 0.5em 1em;
   }
 }
+@media (min-width: 64em) {
+  html {
+    font-size: 112.5%;
+  }
+}
+@media (max-width: 26em) {
+  main {
+    max-width: 25em;
+  }
+
+  html,
+main,
+body,
+.byline,
+.widescreen .container {
+    max-width: 24em;
+  }
+}
 /*** TYPOGRAPHY ***/
 html {
   font-size: 16px;
@@ -6806,27 +6833,27 @@ h6 {
   font-family: "Permanent Marker", sans-serif;
   margin-bottom: 0.6em;
   font-weight: bold;
-  color: #333;
+  color: #2d636f;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 1.7rem;
+  font-size: 2.125em;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.75em;
 }
 
 h4 {
-  font-size: 1.1rem;
+  font-size: 1.375em;
 }
 
 h5 {
-  font-size: 1rem;
+  font-size: 1.25em;
 }
 
 h6 {

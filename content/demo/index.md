@@ -1,6 +1,7 @@
 ---
-Title: Demo
+Title: Demo .md
 Description: Markdown exemplar.
+icon: fas fa-question-circle
 # hidden: true
 ---
 

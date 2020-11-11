@@ -1,6 +1,6 @@
 * {
     // font-family: 'Lato Roboto', sans-serif;
-    font-family: 'Dekko';
+    font-family: $standard-font-family;
     box-sizing: border-box;
     border: 0 none;
     margin: 0;
@@ -90,12 +90,12 @@ body {
 .title,
 .logo {
     float: left;
-    padding: 3em 3em 3em 0;
+    padding: 3em 3em 2em 0;
 }
 
 .title * {
     margin: 0;
-    color: #111;
+    color: $title-color;
 }
 
 .title p {
@@ -103,7 +103,7 @@ body {
 }
 
 .logo {
-    height: 10.8em;
+    height: $h1-font-size * 5.4;
 }
 
 .logo * {
@@ -139,22 +139,23 @@ body {
     margin-left: 1em;
     padding: 0;
     font-weight: bold;
+    font-size: $h1-font-size / 2;
 }
 
 .nav a,
 .nav-toggle {
-    color: #333;
+    color: $nav-color;
 }
 
 .nav .active a,
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $title-color;
 }
 
 .nav a:hover,
 .nav-toggle:hover {
-    color: #3b440d;
+    color: $header-color;
     text-decoration: underline;
 }
 
@@ -295,6 +296,25 @@ body {
     }
 }
 
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media (max-width: 26em) {
+    main {
+        max-width: 25em;
+    }
+    html,
+    main,
+    body,
+    .byline,
+    .widescreen .container, {
+        max-width: 24em;
+    }
+}
+
 /*** TYPOGRAPHY ***/
 
 html {
@@ -351,30 +371,30 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Permanent Marker', sans-serif;
+    font-family: $header-font-family;
     margin-bottom: 0.6em;
     font-weight: bold;
-    color: #333;
+    color: $header-color;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: $h1-font-size;
 }
 
 h2 {
-    font-size: 1.7rem;
+    font-size: $h1-font-size * 0.85;
 }
 
 h3 {
-    font-size: 1.4rem;
+    font-size: $h1-font-size *0.7;
 }
 
 h4 {
-    font-size: 1.1rem;
+    font-size: $h1-font-size * 0.55;
 }
 
 h5 {
-    font-size: 1rem;
+    font-size: $h1-font-size / 2;
 }
 
 h6 {
