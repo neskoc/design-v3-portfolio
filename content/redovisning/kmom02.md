@@ -14,7 +14,7 @@ Hur som helst är jag ganska nöjd med utfallet även om jag har en känsla att 
 
 Jag har hört om sass tidigare men aldrig riktigt orkat läsa mig in i hur det fungerar. 
 Jag visste att det var någon sorts preprocessor relaterat till css men visste inte riktigt hur det fungerade tekniskt.
-Nu ser jag att det var betydligt enklare än jag hade trott/befarat så det blev lite av en antiklimaks.
+Nu ser jag att det var betydligt enklare än jag hade trott/befarat så det blev lite av en antiklimax.
 Däremot har jag börjat känna att jag har koll på hur scss filer hänger ihop, ihop med konfigurationsfilerna, npm och sass.
 Så jag är ganska säker på att jag kommer uppleva sass mer positivt när jag börjat använda det mer.
 
