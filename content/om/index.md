@@ -31,8 +31,9 @@ Jag har lagt extra __@media för enheter upp till 26em__ för att förhindra x-s
 ###  2.3 Fonter
 * google: **Dekka** och **Permanent marker**
 * Båda fonterna är nedladdade länkade till den nedladdade versionen
+* __Fontawesome__ för iconer i menyn och sidfoten
 
 ###  2.4 Iconer
-* Tyvärr finns inga iconer för social media som standariconer utan dessa finns i det privata området så jag har valt att ha fontawesome kvar i foten
+* Tyvärr finns inga iconer för social media som standariconer utan dessa finns i det privata området så jag har valt att ha __fontawesome__ kvar i foten
 * Av samma anledning används dessa även i menyn
 * På förstasidan har jag lagt __unicode iconer__ för luren &#128222; och "hem" &#8962;
