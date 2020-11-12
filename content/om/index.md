@@ -10,8 +10,9 @@ Om tekniker/lösningarna i kmom02
 ## 1. Tekniska lösningar
 
 ### 1.1 Sass/.scss
-Jag har valt att enbart använda mig av variabler den här gången plus att använda __*__ och __/__ matematiska operatorer
-för att anpassa header storlekar samt på ett par ställen till där storleken anpassar sig till **$h1-font-size**-variabeln.
+* variabler i variabler.scss
+* matematiska operatorer __*__ och __/__ för att anpassa header storlekar samt på ett par ställen till där storleken anpassar sig till **$h1-font-size**-variabeln.
+* hierarkisk (nested) css mestadels i __dbwebb.scss__
 
 ## 2. Design
 
@@ -23,9 +24,9 @@ Så jag har inte experimenterat så mycket med design.
 Löses i base.scss
 
 ### 2.2. Responsivitet
-Grundstorleken är wide (72em), det styrs också via variablen $widescreen-max-width
-Site anpassar sig på ett bra sätt till olika skärmstorlekar så det finns väldigt lite under  @media.
-Jag har lagt extra @media för enheter upp till 26em för att föhindra x-scroll.
+Grundstorleken är wide (72em), det styrs också via variablen __$widescreen-max-width__
+Site anpassar sig på ett bra sätt till olika skärmstorlekar så det finns väldigt lite under  __@media__.
+Jag har lagt extra __@media för enheter upp till 26em__ för att förhindra x-scroll.
 
 ### 2.3 Fonter
 * google: **Dekka** och **Permanent marker**
@@ -34,4 +35,4 @@ Jag har lagt extra @media för enheter upp till 26em för att föhindra x-scroll
 ### 2.4 Iconer
 * Tyvärr finns inga iconer för social media som standariconer utan dessa finns i det privata området så jag har valt att ha fontawesome kvar i foten
 * Av samma anledning används dessa även i menyn
-* På förstasidan har jag lagt unicode iconer för luren och "hem"
+* På förstasidan har jag lagt __unicode iconer__ för luren &#128222; och "hem" &#8962;
