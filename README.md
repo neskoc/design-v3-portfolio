@@ -3,4 +3,4 @@
 design-v3-portfolio
 url: https://github.com/neskoc/design-v3-portfolio
 
-Portfolio demosite url: http://www.student.bth.se/~necu20/dbwebb-kurser/design/me/portfolio/
+Portfolio demo site url: http://www.student.bth.se/~necu20/dbwebb-kurser/design/me/portfolio/
