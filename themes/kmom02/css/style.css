@@ -6818,20 +6818,24 @@ h2 {
 
 h3 {
   font-size: 1.75em;
+  padding-left: 0.5em;
 }
 
 h4 {
   font-size: 1.375em;
+  padding-left: 1em;
 }
 
 h5 {
   font-size: 1.25em;
+  padding-left: 1em;
 }
 
 h6 {
   font-size: 1rem;
   font-weight: normal;
   font-style: italic;
+  padding-left: 1em;
 }
 
 img {

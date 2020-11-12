@@ -20,19 +20,19 @@ Generellt känns pico lite "trångt" för att lätt kunna sväga ut med annorlun
 I alla fall så känns det med den nuvarande kompetensnivån.
 Så jag har inte experimenterat så mycket med design.
 
-### 2.1 Normalisering
+###  2.1 Normalisering
 Löses i base.scss
 
-### 2.2. Responsivitet
+###  2.2. Responsivitet
 Grundstorleken är wide (72em), det styrs också via variablen __$widescreen-max-width__
 Site anpassar sig på ett bra sätt till olika skärmstorlekar så det finns väldigt lite under  __@media__.
 Jag har lagt extra __@media för enheter upp till 26em__ för att förhindra x-scroll.
 
-### 2.3 Fonter
+###  2.3 Fonter
 * google: **Dekka** och **Permanent marker**
 * Båda fonterna är nedladdade länkade till den nedladdade versionen
 
-### 2.4 Iconer
+###  2.4 Iconer
 * Tyvärr finns inga iconer för social media som standariconer utan dessa finns i det privata området så jag har valt att ha fontawesome kvar i foten
 * Av samma anledning används dessa även i menyn
 * På förstasidan har jag lagt __unicode iconer__ för luren &#128222; och "hem" &#8962;
