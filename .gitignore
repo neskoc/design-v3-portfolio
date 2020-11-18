@@ -16,3 +16,6 @@ desktop.ini
 
 # NPM
 themes/node_modules/
+
+# VScode
+.vscode/
