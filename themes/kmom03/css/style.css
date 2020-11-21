@@ -7163,7 +7163,7 @@ button::-moz-focus-inner {
 .kmom-grid-box .arrow a {
   color: #75b7c8;
 }
-.kmom-grid-box .arrow a .active a, .kmom-grid-box .arrow a:hover {
+.kmom-grid-box .arrow a .active {
   color: #0a2b33;
 }
 .kmom-grid-box .arrow a:hover {
@@ -7197,6 +7197,9 @@ button::-moz-focus-inner {
   padding-top: 3em;
   font-size: 2em;
 }
+.kmoms .side-nav .active {
+  list-style-type: ">";
+}
 .kmoms .side-nav ul {
   padding-left: 0.5em;
   list-style-type: none;
@@ -7207,10 +7210,6 @@ button::-moz-focus-inner {
 .kmoms .side-nav .active a {
   color: #2d636f;
 }
-.kmoms .side-nav li.active {
-  padding-left: 0.3em;
-  list-style-type: ">";
-}
 .kmoms .side-nav a:hover {
   color: #2d636f;
   text-decoration: underline;
@@ -7220,4 +7219,22 @@ button::-moz-focus-inner {
   order: 2;
   flex-grow: 3;
   padding-left: 1em;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 0;
+  }
+
+  .kmoms {
+    flex-direction: column;
+  }
+
+  .kmoms .side-nav {
+    padding-top: 0;
+  }
+
+  .kmoms .side-nav ul {
+    margin-bottom: 0;
+  }
 }

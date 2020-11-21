@@ -37,8 +37,7 @@
 .kmom-grid-box .arrow a {
     color: $nav-color;
 
-    .active a,
-    &:hover {
+    .active {
         color: $title-color;
     }
 

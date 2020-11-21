@@ -11,9 +11,3 @@
     src: url('../../shared/fonts/google/PermanentMarker-Regular.ttf');
     font-display: swap;
 }
-
-@mixin qualify($element-selector) {
-    @at-root #{$element-selector + &} {
-        @content;
-    }
-}
