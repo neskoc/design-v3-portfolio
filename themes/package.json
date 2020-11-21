@@ -1,15 +1,15 @@
 {
     "name": "themes",
-    "version": "1.0.0",
+    "version": "1.3.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "stylelint \"**/*.scss\"",
-        "style": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map",
-        "style-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed",
-        "watch": "sass kmom02/scss/style.scss kmom02/css/style.css --no-source-map --watch",
-        "watch-min": "sass kmom02/scss/style.scss kmom02/css/style.min.css --no-source-map --style compressed --watch"
+        "style": "sass kmom03/scss/style.scss kmom03/css/style.css --no-source-map",
+        "style-min": "sass kmom03/scss/style.scss kmom03/css/style.min.css --no-source-map --style compressed",
+        "watch": "sass kmom03/scss/style.scss kmom03/css/style.css --no-source-map --watch",
+        "watch-min": "sass kmom03/scss/style.scss kmom03/css/style.min.css --no-source-map --style compressed --watch"
     },
     "keywords": [],
     "author": "",

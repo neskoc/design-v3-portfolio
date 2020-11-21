@@ -61,8 +61,25 @@
         </div>
     </div>
     <div class="main" role="main">
-        <div class="container">
-            {{ content }}
+        <div class="kmoms">
+            <div class="side-nav">
+                <aside>
+                    <ul>
+                        {% for page in pages("redovisning/kmoms") | sort_by("time") if page.title and not page.hidden %}
+                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                <a href="{{ page.url }}">
+                                    {% if page.meta.icon %}
+                                        <i class="{{ page.meta.icon }}" aria-hidden="true"></i>
+                                    {% endif %}
+                                {{ page.title }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </aside>
+            </div>
+            <div class="kmom-content">
+                {{ content }}
+            </div>
         </div>
     </div>
     <div class="byline container">

@@ -1,10 +1,11 @@
 ---
 Title: Kmom01
-Description: Part 1
+Description: Redovisning av kursmoment 1
+Date: 2020-10-15
+Template: kmoms
 ---
 
-Kursmoment 1
-==================
+## Kursmoment 1
 
 Under alla mina år har jag jobbat med en mängd olika CMS bl.a. Wordpress, Joomla, Drupal, Typo3, SiteVision och en del andra verktyg. Bara för några månaders sedan började jag använda pico för min personliga <a href="https://046.one" target="_blank">externa presentation</a>. Just då hade jag planer på en freelancer-karriär vilkt blev uppskjutet på obestämd tid.
 

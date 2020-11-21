@@ -1,0 +1,17 @@
+.kmoms {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 1em;
+}
+
+.kmoms .side-nav {
+    order: 1;
+    flex-grow: 1;
+    padding-top: 3em;
+}
+
+.kmoms .kmom-content {
+    order: 2;
+    flex-grow: 3;
+}
