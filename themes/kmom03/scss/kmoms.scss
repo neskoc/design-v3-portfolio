@@ -9,9 +9,34 @@
     order: 1;
     flex-grow: 1;
     padding-top: 3em;
+    font-size: 2em;
+
+    @include qualify(li) {
+        padding-left: 0.3em;
+        list-style-type: '>';
+    }
+
+    ul {
+        padding-left: 0.5em;
+        list-style-type: none;
+    }
+
+    a {
+        color: $nav-color;
+    }
+
+    .active a {
+        color: $header-color;
+    }
+
+    a:hover {
+        color: $header-color;
+        text-decoration: underline;
+    }
 }
 
 .kmoms .kmom-content {
     order: 2;
     flex-grow: 3;
+    padding-left: 1em;
 }

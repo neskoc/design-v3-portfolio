@@ -7195,9 +7195,29 @@ button::-moz-focus-inner {
   order: 1;
   flex-grow: 1;
   padding-top: 3em;
+  font-size: 2em;
+}
+.kmoms .side-nav ul {
+  padding-left: 0.5em;
+  list-style-type: none;
+}
+.kmoms .side-nav a {
+  color: #75b7c8;
+}
+.kmoms .side-nav .active a {
+  color: #2d636f;
+}
+.kmoms .side-nav li.active {
+  padding-left: 0.3em;
+  list-style-type: ">";
+}
+.kmoms .side-nav a:hover {
+  color: #2d636f;
+  text-decoration: underline;
 }
 
 .kmoms .kmom-content {
   order: 2;
   flex-grow: 3;
+  padding-left: 1em;
 }
