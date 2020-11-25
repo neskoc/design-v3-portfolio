@@ -11,4 +11,7 @@ Social:
     - title: Länken till min personliga portfolio.
       url: #
       icon: fab fa-twitter
+    - title: Destroy session.
+      url: ?action=session_destroy
+      icon: fas fa-trash
 ---

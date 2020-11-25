@@ -19,3 +19,6 @@ themes/node_modules/
 
 # VScode
 .vscode/
+
+# Private area
+.private/

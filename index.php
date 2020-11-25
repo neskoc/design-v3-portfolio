@@ -28,8 +28,19 @@ $pico = new Pico(
     'themes/'   // themes dir
 );
 
+if (isset($_GET['action']) == 'session_destroy') {
+    session_destroy();
+
+    $url = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"] . $_SERVER["PHP_SELF"];
+    $url = preg_replace("/index.php\//", "", $url);
+    $_SESSION["url"] = $url;
+    header("Location: $url");
+};
+
 // override configuration?
-//$pico->setConfig(array());
+$pico->setConfig(array(
+    'session' => $_SESSION
+));
 
 // run application
 echo $pico->run();
