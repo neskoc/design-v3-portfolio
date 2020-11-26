@@ -14,4 +14,7 @@ Social:
     - title: Destroy session.
       url: ?action=session_destroy
       icon: fas fa-trash
+    - title: Dark mode.
+      url: ?action=theme
+      icon: fas fa-moon
 ---

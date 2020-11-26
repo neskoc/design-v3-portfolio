@@ -1,0 +1,27 @@
+/*** BASIC LAYOUT: FOOTER ***/
+
+.footer {
+    background-image: url('../../shared/img/lemonade_monochromatic.png');
+    background-color: rgba(0, 0, 0, 0.2);
+    color: rgb(4, 60, 124);
+
+    a {
+        color: $footer-a-color;
+    }
+
+    a:hover {
+        color: $footer-a-hover-color;
+    }
+
+    p {
+        margin: 0;
+        padding: 3em 0;
+    }
+
+    .social {
+        /* float: right; */
+        text-align: center;
+        padding: 1.5em 0 1.5em 1em;
+        font-size: 2rem;
+    }
+}

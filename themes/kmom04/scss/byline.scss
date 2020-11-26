@@ -1,0 +1,31 @@
+// byline
+
+.byline.container {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding: 0.5em;
+    border-radius: 10px;
+    background-color: $byline-background;
+    clear: both;
+
+    img {
+        float: left;
+        padding: 0.1em;
+        width: 60px;
+        border-radius: 7px;
+    }
+
+    a {
+        color: $byline-a-color;
+        text-decoration: underline;
+    }
+
+    a:hover {
+        text-decoration: none;
+    }
+
+    a:visited {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,98 @@
+/*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+
+@media (max-width: 767px) {
+    .main {
+        padding: 2em 0 1em;
+    }
+
+    .title,
+    .logo {
+        padding: 2em 1.5em 2em 0;
+    }
+
+    .logo {
+        height: 8.8em;
+    }
+
+    .image {
+        &.xsmall {
+            width: 60%;
+        }
+
+        &.small {
+            width: 80%;
+        }
+
+        &.large,
+        &.xlarge {
+            width: 100%;
+        }
+
+        &.float-left,
+        &.float-right {
+            float: none;
+            margin: 0 auto;
+        }
+    }
+
+    .nav {
+        clear: both;
+        padding: 0;
+
+        ul {
+            padding-bottom: 1em;
+        }
+
+        ul li {
+            display: block;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        ul li a {
+            display: block;
+            padding: 0.5em 0;
+        }
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+
+    .footer {
+        p {
+            padding: 1em 0;
+        }
+
+        .social {
+            padding: 0.5em 0 0.5em 1em;
+        }
+    }
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
+
+@media (max-width: 26em) {
+    html,
+    main,
+    body,
+    .byline,
+    .widescreen .container {
+        max-width: 24em;
+    }
+}
