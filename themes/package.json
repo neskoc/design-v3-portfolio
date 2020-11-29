@@ -6,10 +6,14 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "lint": "stylelint \"**/*.scss\"",
-        "style": "sass kmom04/scss/style.scss kmom04/css/style.css --no-source-map",
-        "style-min": "sass kmom04/scss/style.scss kmom04/css/style.min.css --no-source-map --style compressed",
-        "watch": "sass kmom04/scss/style.scss kmom04/css/style.css --no-source-map --watch",
-        "watch-min": "sass kmom04/scss/style.scss kmom04/css/style.min.css --no-source-map --style compressed --watch"
+        "watch": "sass kmom04/scss/style.scss:kmom04/css/style.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.css --no-source-map --watch",
+        "watch-min": "sass kmom04/scss/style.scss:kmom04/css/style.min.css kmom04/scss/style-dark.scss:kmom04/css/style-dark.min.css --no-source-map --watch --style compressed",
+        "style": "npm run style-light && npm run style-dark",
+        "style-min": "npm run style-light-min && npm run style-dark-min",
+        "style-dark": "sass kmom04/scss/style-dark.scss kmom04/css/style-dark.css --no-source-map",
+        "style-dark-min": "sass kmom04/scss/style-dark.scss kmom04/css/style-dark.min.css --no-source-map --style compressed",
+        "style-light": "sass kmom04/scss/style.scss kmom04/css/style.css --no-source-map",
+        "style-light-min": "sass kmom04/scss/style.scss kmom04/css/style.min.css --no-source-map --style compressed"
     },
     "keywords": [],
     "author": "",

@@ -1,7 +1,360 @@
-@import '../../shared/fontawesome/scss/fontawesome';
-$fa-font-path: '../../shared/fontawesome/webfonts';
-@import '../../shared/fontawesome/scss/brands';
-@import '../../shared/fontawesome/scss/solid';
-@import '../../shared/fontawesome/scss/regular';
-// @import url('https://fonts.googleapis.com/css2?family=Lato&family=Permanent+Marker&family=Roboto&display=swap');
-@import 'base';
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables-dark';
+@import 'typography';
+@import 'header';
+@import 'byline';
+@import 'footer';
+@import 'responsive';
+@import 'report';
+@import 'kmoms';
+
+* {
+    box-sizing: border-box;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+
+    &:focus {
+        outline: 0;
+    }
+}
+
+.hidden {
+    display: none !important;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
+}
+
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
+
+/*** BASIC LAYOUT ***/
+
+html {
+    background-image: url('../../shared/img/summer_landscape_monochromatic.png');
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: scroll;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    flex: 0.6 0 auto;
+    padding: 4em 0 1em;
+
+    /* very ugly overflow fix, avoid this whenever possible! */
+
+    .container {
+        overflow-x: auto;
+    }
+}
+
+.header,
+.footer {
+    flex: 0 0 auto;
+}
+
+.container {
+    max-width: 48em;
+    padding: 0 0.5em;
+    margin: 0 auto;
+}
+
+.widescreen .container {
+    max-width: $widescreen-max-width;
+}
+
+/*** UTILITIES ***/
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-justify {
+    text-align: justify;
+}
+
+.image {
+    display: block;
+    margin: 0 auto;
+
+    &.xsmall {
+        width: 20%;
+    }
+
+    &.small {
+        width: 40%;
+    }
+
+    &.large {
+        width: 60%;
+    }
+
+    &.float-left {
+        float: left;
+        margin: 1em 2em 1em 0;
+    }
+
+    &.xlarge {
+        width: 80%;
+    }
+
+    &.float-right {
+        float: right;
+        margin: 1em 0 1em 2em;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+}
+
+/*** LISTS ***/
+
+ol,
+ul {
+    list-style-position: outside;
+    padding-left: 1.5em;
+}
+
+ol {
+    padding-left: 2.5em;
+}
+
+li {
+    padding-left: 0.5em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+dd {
+    margin-left: 2em;
+}
+
+/*** TABLES ***/
+
+table {
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0.4em 1em;
+    vertical-align: top;
+}
+
+th {
+    font-weight: bold;
+    text-align: center;
+    background: $th-background;
+    color: $th-color;
+}
+
+td,
+th {
+    border: 1px solid $th-border-color;
+}
+
+tr:not(:last-child) td,
+tr:not(:last-child) th {
+    border-bottom: 0 none;
+}
+
+thead tr:last-child th {
+    border-bottom: 0 none;
+}
+
+td:not(:last-child),
+th:not(:last-child) {
+    border-right: 0 none;
+}
+
+tr:first-child td:first-child,
+tr:first-child th:first-child {
+    border-top-left-radius: 0.3em;
+}
+
+tr:first-child td:last-child,
+tr:first-child th:last-child {
+    border-top-right-radius: 0.3em;
+}
+
+tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 0.3em;
+}
+
+tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 0.3em;
+}
+
+table thead+tbody tr:first-child td {
+    border-radius: 0 !important;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.table-responsive>table {
+    margin-bottom: 0;
+}
+
+/*** CODE ***/
+
+code {
+    margin: 0 0.1em;
+    padding: 0.1em 0.2em;
+    border: 1px solid $code-border;
+    border-radius: 0.3em;
+    background: $code-background;
+    font-family: monospace;
+    font-size: 0.85rem;
+    line-height: 1.9824;
+}
+
+pre {
+    padding: 0 1em;
+    border: 1px solid $pre-border;
+    border-radius: 0.3em;
+    background: $pre-background;
+
+    code {
+        display: block;
+        margin: 0;
+        padding: 1.1111em 0;
+        border: 0 none;
+        background: transparent;
+        overflow-x: auto;
+        line-height: 1.4;
+    }
+}
+
+/*** BLOCKQUOTE ***/
+
+blockquote {
+    font-style: italic;
+    margin-left: 1em;
+    padding-left: 1em;
+    border-left: 0.5em solid $blockquote-border-left;
+}
+
+/*** FORMS ***/
+
+label,
+fieldset legend {
+    font-weight: bold;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea,
+fieldset,
+fieldset legend {
+    border: 1px solid $form-border-color;
+    border-radius: 0.3em;
+    background: $form-background;
+    transition: none 0.2s ease-in;
+    transition-property: border-color, background, box-shadow;
+}
+
+input:not([type='checkbox']):not([type='radio']),
+button,
+select,
+textarea {
+    padding: 0.5em 1em;
+    outline: 0 none;
+    font-size: 1rem;
+}
+
+input:focus:not([type='checkbox']):not([type='radio']),
+button:focus,
+select:focus,
+textarea:focus {
+    border-color: $form-focus-border-color;
+    box-shadow: 0 0 8px $form-focus-box-shadow;
+}
+
+input:focus,
+button:focus,
+button:hover {
+    background: $form-focus-hover-background;
+    cursor: pointer;
+}
+
+textarea,
+select {
+    vertical-align: bottom;
+    overflow: auto;
+}
+
+fieldset {
+    padding: 1em;
+    background: $fieldset-background;
+}
+
+fieldset legend {
+    padding: 0 0.5em;
+}
+
+fieldset label,
+fieldset input,
+fieldset button,
+fieldset select,
+fieldset textarea {
+    margin: 0.2em 0.5em;
+}
+
+fieldset label:first-child,
+fieldset input:first-child,
+fieldset button:first-child,
+fieldset select:first-child,
+fieldset textarea:first-child {
+    margin-left: 0;
+}
+
+fieldset label:last-child,
+fieldset input:last-child,
+fieldset button:last-child,
+fieldset select:last-child,
+fieldset textarea:last-child {
+    margin-right: 0;
+}
+
+/* Firefox input size fix */
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}

@@ -91,6 +91,20 @@
     }
 }
 
+.nav2-toggle {
+    display: none;
+    color: $nav-color;
+
+    &:hover {
+        color: $title-color;
+    }
+
+    &:hover {
+        color: $header-color;
+        text-decoration: underline;
+    }
+}
+
 /* IE8 + IE9 clearfix */
 
 .header>.container::after {

@@ -55,6 +55,26 @@
         }
     }
 
+    .nav2 {
+        clear: both;
+        padding: 0;
+
+        ul {
+            padding-bottom: 1em;
+        }
+
+        ul li {
+            display: block;
+            margin-left: 0;
+            text-align: center;
+        }
+
+        ul li a {
+            display: block;
+            padding: 0.5em 0;
+        }
+    }
+
     .js .nav-toggle {
         display: block;
         float: right;
@@ -67,6 +87,20 @@
     }
 
     .js .nav-toggle>* {
+        vertical-align: middle;
+    }
+
+    .js .nav2-toggle {
+        display: block;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav2-toggle>* {
         vertical-align: middle;
     }
 

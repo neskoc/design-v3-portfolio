@@ -6617,6 +6617,20 @@ body {
   text-decoration: underline;
 }
 
+.nav2-toggle {
+  display: none;
+  color: #75b7c8;
+}
+
+.nav2-toggle:hover {
+  color: #0a2b33;
+}
+
+.nav2-toggle:hover {
+  color: #2d636f;
+  text-decoration: underline;
+}
+
 /* IE8 + IE9 clearfix */
 .header > .container::after {
   content: "";
@@ -6724,6 +6738,21 @@ body {
   }
 
   .js .nav-toggle > * {
+    vertical-align: middle;
+  }
+
+  .js .nav2-toggle {
+    display: block;
+    float: right;
+    width: 2em;
+    margin: 0.6667em 0;
+    font-size: 1.5rem;
+    line-height: 2em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .js .nav2-toggle>* {
     vertical-align: middle;
   }
 

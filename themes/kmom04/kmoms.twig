@@ -66,24 +66,30 @@
         </div>
     </div>
     <div class="main" role="main">
-        <div class="container kmoms">
-            <div class="side-nav">
-                <aside>
-                    <ul>
-                        {% for page in pages("redovisning/kmoms") | sort_by("time") if page.title and not page.hidden %}
-                            <li{% if page.id == current_page.id %} class="active"{% endif %}>
-                                <a href="{{ page.url }}">
-                                    {% if page.meta.icon %}
-                                        <i class="{{ page.meta.icon }}" aria-hidden="true"></i>
-                                    {% endif %}
-                                {{ page.title }}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </aside>
-            </div>
-            <div class="kmom-content">
-                {{ content }}
+        <div class="container">
+            <a class="nav2-toggle" id="nav2-toggle" title="Toggle Level2 Menu" role="button" aria-controls="nav2" aria-expanded="false" tabindex="1">
+                <i class="fa fa-bars" aria-hidden="true" id="toggler2"></i>
+                <span class="sr-only">Toggle Level2 Menu</span>
+            </a>
+            <div class="kmoms">
+                <div id="nav2" role="navigation" class="side-nav" tabindex="-1">
+                    <aside>
+                        <ul>
+                            {% for page in pages("redovisning/kmoms") | sort_by("time") if page.title and not page.hidden %}
+                                <li{% if page.id == current_page.id %} class="active"{% endif %}>
+                                    <a href="{{ page.url }}">
+                                        {% if page.meta.icon %}
+                                            <i class="{{ page.meta.icon }}" aria-hidden="true"></i>
+                                        {% endif %}
+                                    {{ page.title }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </aside>
+                </div>
+                <div class="kmom-content">
+                    {{ content }}
+                </div>
             </div>
         </div>
     </div>
@@ -108,5 +114,6 @@
     <script src="{{ theme_url }}/../shared//js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/utils.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared//js/responsive-navbar.js" type="text/javascript"></script>
+    <script src="{{ theme_url }}/../shared//js/responsive-navbar-level2.js" type="text/javascript"></script>
 </body>
 </html>
