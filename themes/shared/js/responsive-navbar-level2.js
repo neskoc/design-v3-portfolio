@@ -30,6 +30,7 @@ function main2()
             if (menuToggle.getAttribute('aria-expanded') === 'false') {
                 menuToggle.setAttribute('aria-expanded', 'true');
                 navIcon.className = 'fa fa-times';
+                menu.className = 'side-nav';
 
                 utils.slideDown(menu, null, function () {
                     if (event.type === 'keydown') {
