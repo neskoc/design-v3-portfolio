@@ -1,0 +1,59 @@
+.kmoms {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 1em;
+}
+
+.kmoms .side-nav {
+    order: 1;
+    flex-grow: 1;
+    padding-top: 3em;
+    font-size: 2em;
+
+    .active {
+        list-style-type: '>';
+    }
+
+    ul {
+        padding-left: 0.5em;
+        list-style-type: none;
+    }
+
+    a {
+        color: $nav-color;
+    }
+
+    .active a {
+        color: $header-color;
+    }
+
+    a:hover {
+        color: $header-color;
+        text-decoration: underline;
+    }
+}
+
+.kmoms .kmom-content {
+    order: 2;
+    flex-grow: 3;
+    padding-left: 1em;
+}
+
+@media (max-width: 767px) {
+    .main {
+        padding: 0;
+    }
+
+    .kmoms {
+        flex-direction: column;
+    }
+
+    .kmoms .side-nav {
+        padding-top: 0;
+    }
+
+    .kmoms .side-nav ul {
+        margin-bottom: 0;
+    }
+}
