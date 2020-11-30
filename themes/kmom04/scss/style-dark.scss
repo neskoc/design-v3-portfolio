@@ -59,8 +59,8 @@ body {
 }
 
 .main {
-    flex: 0.6 0 auto;
-    padding: 4em 0 1em;
+    flex: 0.6 0 0;
+    padding: 4em 0 0;
 
     /* very ugly overflow fix, avoid this whenever possible! */
 
@@ -78,7 +78,10 @@ body {
     max-width: 48em;
     padding: 0 0.5em;
     margin: 0 auto;
-    background-color: $container-background;
+
+    .kmoms {
+        background-color: $container-background;
+    }
 }
 
 .widescreen .container {

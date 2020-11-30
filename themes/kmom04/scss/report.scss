@@ -1,7 +1,7 @@
-.report {
+.container.report {
     display: grid;
     gap: 1em 1em;
-    padding: 0 1em;
+    padding: 0;
 
     h1 {
         grid-column: span 3;
