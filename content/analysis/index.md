@@ -13,12 +13,12 @@ Template: report
     <div class="arrow"><a href="analysis/sub/01_colors"><i class="fas fa-arrow-circle-right"></i></a></div>
 </div>
 <div class="kmom-grid-box">
-    <a href="analysis/sub/"><h2>kmom02</h2></a>
-    <p>Redovisningssida för kmom02</p>
-    <div class="arrow"><a href="analysis/sub/"><i class="fas fa-arrow-circle-right"></i></a></div>
+    <a href="analysis/sub/02_load"><h2>Laddningstid</h2></a>
+    <p>Analys av laddningstid och<br/>användbarhet (kmom05)</p>
+    <div class="arrow"><a href="analysis/sub/02_load"><i class="fas fa-arrow-circle-right"></i></a></div>
 </div>
 <div class="kmom-grid-box">
-    <a href="analysis/sub/"><h2>kmom03</h2></a>
+    <a href="analysis/sub/"><h2>kmom06</h2></a>
     <p>Redovisningssida för kmom03</p>
     <div class="arrow"><a href="analysis/sub/"><i class="fas fa-arrow-circle-right"></i></a></div>
 </div>
