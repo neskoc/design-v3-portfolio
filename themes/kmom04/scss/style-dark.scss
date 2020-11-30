@@ -74,6 +74,10 @@ body {
     flex: 0 0 auto;
 }
 
+.flash-img {
+    filter: brightness(30%);
+}
+
 .container {
     max-width: 48em;
     padding: 0 0.5em;
