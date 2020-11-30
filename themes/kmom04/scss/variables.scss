@@ -1,5 +1,4 @@
 // variables.scss
-@import 'color-palett';
 
 $widescreen-max-width: 72em !default;
 
@@ -14,36 +13,38 @@ $header-background: #fff;
 $nav-color: #75b7c8;
 $title-color: #0a2b33;
 $flash-img-background: rgba(122, 186, 200, 0.1);
+$border-line-color: $nav-color;
+$body-color: #444;
 
 $h1-font-size: 2.5em;
 
-$body-color: #444;
+$grid-box-background: rgba(255, 255, 255, 0.5);
 
-$a-color: #2eae9b;
-$a-hover-color: $body-color;
+$a-color: $nav-color;
+$a-hover-color: $base-color;
 
-$hr-border-color: #f5f5f5;
-$hr-background: $hr-border-color;
+$hr-border-color: $border-line-color;
+$hr-background: $grid-box-background;
 
-$th-background: $hr-border-color;
-$th-color: #333;
-$th-border-color: #ccc;
+$th-color: $body-color;
+$th-border-color: $border-line-color;
+$th-background: $grid-box-background;
 
-$code-border: $th-border-color;
-$code-background: $hr-border-color;
+$code-border: $border-line-color;
+$code-background: $grid-box-background;
 
-$pre-border: $th-border-color;
-$pre-background: $hr-border-color;
+$pre-border: $border-line-color;
+$pre-background: $grid-box-background;
 
-$blockquote-border-left: $hr-border-color;
+$blockquote-border-left: $grid-box-background;
 
-$form-border-color: $th-border-color;
+$form-border-color: $border-line-color;
 $form-background: $header-background;
 $form-focus-border-color: $a-color;
 $form-focus-box-shadow: $a-color;
-$form-focus-hover-background: $hr-border-color;
+$form-focus-hover-background: $grid-box-background;
 
-$fieldset-background: $hr-border-color;
+$fieldset-background: $grid-box-background;
 
 $byline-background: rgba(122, 186, 200, 0.6);
 $byline-a-color: #2f4f4f;
