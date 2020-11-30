@@ -5,7 +5,6 @@ site_title: Design v3             # The title of your website
 base_url: ~                           # Pico will try to guess its base URL, if this fails, override it here;
                                              #     Example: https://example.com/pico/
 rewrite_url: ~                       # A boolean (true or false) indicating whether URL rewriting is forced
-debug: true                               # Set this to true to enable Pico's debug mode
 timezone: ~                          # Your PHP installation might require you to manually specify a timezone
 
 ##

@@ -8,15 +8,15 @@ sans-serif !default;
 
 $base-color: #00f !default; // blue
 
-$nav-color:#46BDA8;
-$title-color: #426CB3;
+$nav-color: #46bda8;
+$title-color: #426cb3;
 
-$header-color: #42B37F !default;
+$header-color: #42b37f;
 $header-background: rgba(0, 0, 0, 0.7);
 
 $flash-img-background: rgba(122, 186, 200, 0.1);
 $border-line-color: $nav-color;
-$body-color: #46BDA8;
+$body-color: #46bda8;
 
 $container-background: rgba(0, 0, 0, 0.3);
 
@@ -25,7 +25,7 @@ $h1-font-size: 2.5em;
 $grid-box-background: rgba(0, 0, 0, 0.5);
 
 $a-color: #2eae9b;
-$a-hover-color: #42B37F;
+$a-hover-color: $header-color;
 
 $hr-border-color: $border-line-color;
 $hr-background: $grid-box-background;
@@ -50,8 +50,8 @@ $form-focus-hover-background: $grid-box-background;
 
 $fieldset-background: $grid-box-background;
 
-$byline-background:$grid-box-background;
-$byline-a-color:#4692BD;
+$byline-background: $grid-box-background;
+$byline-a-color: #4692db;
 
-$footer-a-color: #4692BD;
-$footer-a-hover-color: #42B37F;
+$footer-a-color: #4692db;
+$footer-a-hover-color: $header-color;

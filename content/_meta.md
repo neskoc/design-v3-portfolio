@@ -1,5 +1,5 @@
 ---
-Logo: image/miroodles-color-composition-small.png
+Logo: image/miroodles-color-composition-new.png
 Tagline: Min portfolio.
 Social:
     - title: Länken till min linkedin profil.
