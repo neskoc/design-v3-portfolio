@@ -49,7 +49,7 @@ Chile-screenshot.png "Chile"){.image}
 - __Montserrat__: __sans-serif__ - används för rubrik h3, resten av texterna förutom små undantag  
   "The old posters and signs in the traditional Montserrat neighborhood of Buenos Aires inspired Julieta Ulanovsky to design this typeface and rescue the beauty of urban typography that emerged in the first half of the twentieth century."
 - __FontAwesome__: social media ikoner
-- __Roboto__: __sans-serif__, Används för Covid info (rubrik h1)
+- __Roboto__: __sans-serif__, Används för Covid info (rubrik h1)  
   "Roboto is a neo-grotesque sans-serif typeface family developed by Google as the system font for its mobile operating system Android, and released in 2011 for Android 4.0 Ice Cream Sandwich."
 
 #### Ramverk:
@@ -326,7 +326,7 @@ Det är en hel del väldigt professionellt gjorda videklipp vilka ger en kvalite
 Detta är den nyaste av de analyserade turistsiter och det hade egentligen inte funnit någon officiell dedikerad turistwebbsida.  
 Innan dess hade det funnits en facebook-sida vilken faktiskt varit väldigt bra och konstatnt uppdaterat med mycket vackra bilder.  
 
-Jag tycker att de har lyckat väldigt bra och det är tydligt att man satsat stora resurser för detta.
+Jag tycker att de har lyckat väldigt bra och det är tydligt att man lagt stora resurser för detta.
 
 ## Övrigt
 
