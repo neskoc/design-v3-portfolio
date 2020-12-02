@@ -7,15 +7,14 @@ Template: kmoms
 
 ## Kursmoment 4
 
-Först och främst tycker jag att detta kursmoment hade klart det sämsta upplägget hittills under utbildningen.
-Föreläsningarna enbart skrapar på ytan och ligger på 2 till 3 nivåer under den förväntade prestationen.
+Först och främst tycker jag att detta kursmoment hade ett dåligt upplägg.
+Föreläsningarna nästan enbart skrapar på ytan och ligger på en nivå under den förväntade prestationen.
 Själv har jag väldigt tunn bakgrund inom design och i synnerhet inom färg.  
 Dessutom är det inget som jag har talang för.
 
 Därför hade jag förväntat mig en djupare dykning i färgteorin samt praktiska exempel om hur man jobbar med olika verktyg och tekniker.
-Detta har i princip helt uteblivit.
 Även med min tunna bakgrund inom färg kunde jag det mesta som togs upp på föreläsningarna
-men efteråt var endå minimalt förberedd för det praktiska arbetet.
+men efteråt var endå dåligt förberedd för det praktiska arbetet.
 
 ### Skrivuppgiften
 
@@ -27,8 +26,12 @@ Utan några riktlinjer, exempel, genomgång av verktygen och avgränsningar är 
 
 - Jag använde mig av min ursprungliga bakgrundsbild som grunden för att extrahera färgschemat (jag använde Adobe Color -> Extract Theme).
   Nu i efterhand inser jag att troligtvis borde ha struntat i det och koncentrerat mig på att ta fram färgerna först utifrån någon av teknikerna.
-- I nästa steg valde jag tillämpa en analog färgsammansättnignsregel. Till det använde jag Adobe Color-verktyget.  
-  Så det var inget medvetet val utan jag testat flera verktyg, tyckte att Adobe var mest intuitivt att använda,
+- I nästa steg valde jag tillämpa en analog färgsammansättnignsregel. Till det använde jag Adobe Color-verktyge.  
+  Nu i efterhand inser jag att det bättre alternativet skulle nog ha varit Paletton-verktyget.  
+  Adobe Color har den dåliga vanan att "förstöra" arbetet så fort man drar i en av färgerna.
+  Det blev en hel del frustration under arbetet. Visserligen varnades det för i en av artiklarna men det om inte läsera allt först kommer denna information för sent.
+
+  Så det var inget medvetet val utan jag testat flera verktyg (Paletton stötte jag på först senare), tyckte att Adobe var mest intuitivt att använda,
   testade olika regel samt experimenterade i portfolion tills jag fick ett resultat som kändes någorlunda bra.
   I och med att jag var nöjd med mitt ursprungliga "ljusa" temat (det baserades på en monokromtisk bakgrundsbild)
   arbetade jag enbart med att få till det mörka temat samt arbetade här med färghjulet.
@@ -61,8 +64,10 @@ Det är dessa filer jag har arbetat med plus jag har tagit fram mörkare variant
 - till slut har jag lagt lite mörkare bakgrundsfärg för flera element för att få en bättre kontrast mot den mörkare bakgrundsbilden
   som ändå har visats sig vara för ljus på vissa ställen.
 
-__TIL__: Jag känner inte att jag har lärt mig så mycket inom detta kmom. Förhoppningsvis kommer jag i efterhand kunna tänka tillbaka
-och känna någon "aha-uplevelse" men just nu känns det mest väldigt kaotiskt i mitt huvud.
+__TIL__: Jag känner inte att jag har lärt mig så mycket om något inom detta kmom. Mest var det en liten grej här och där.
+Förhoppningsvis kommer jag i efterhand kunna tänka tillbaka och känna någon "aha-uplevelse" men just nu känns det mest väldigt kaotiskt i mitt huvud.  
+Det enda som jag kan komma på som är kunskapen om skillnaden mellan den additiva och den substraktiva färgmodellen
+och hur dessa används inom sina respektive områden (skärmar och skrivarteknik).
 
 ### Avslutande tankar
 
