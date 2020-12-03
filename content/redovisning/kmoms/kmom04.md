@@ -51,7 +51,7 @@ Utan några riktlinjer, exempel, genomgång av verktygen och avgränsningar är 
 ### Accentfärger
 
 Även här kan jag säga att jag knappast vet vad accentfärger är för något. Jag har sökt i samtliga angivna källor
-och ordet accent förekommer på några få ställen men jag upplever inte att det förklaras på ett bra sätt äns vad det är
+och ordet accent förekommer på några få ställen men jag upplever inte att det förklaras på ett bra sätt ens vad det är
 och ännu mindre hur man arbetar med dessa.
 
 Nu i efterhand när jag arbetat mer med analys av webbplatser samt läst på nytt de ställen där ordet förekommer gissar jag att det syftar på en komplementfärg. Jag förstår fortfarande inte om det förekommer bara
@@ -73,7 +73,7 @@ Det är dessa filer jag har arbetat med plus jag har tagit fram mörkare variant
   som ändå har visats sig vara för ljus på vissa ställen.
 
 __TIL__: Jag känner inte att jag har lärt mig så mycket om något inom detta kmom. Mest var det en liten grej här och där.
-Förhoppningsvis kommer jag i efterhand kunna tänka tillbaka och känna någon "aha-uplevelse" men just nu känns det mest väldigt kaotiskt i mitt huvud.  
+Förhoppningsvis kommer jag i efterhand kunna tänka tillbaka och känna någon "aha-upplevelse" men just nu känns det mest väldigt kaotiskt i mitt huvud.  
 Det enda som jag kan komma på som är kunskapen om skillnaden mellan den additiva och den substraktiva färgmodellen
 och hur dessa används inom sina respektive områden (skärmar och skrivarteknik).
 
