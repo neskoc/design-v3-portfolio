@@ -130,3 +130,20 @@
         max-width: 24em;
     }
 }
+
+@media (max-width: 950px) {
+    .container.report h1,
+    .container.kmom-grid-box.project {
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 640px) {
+    .container {
+        &.report h1,
+        &.kmom-grid-box.project,
+        &.kmom-grid-box {
+            grid-column: span 1;
+        }
+    }
+}
