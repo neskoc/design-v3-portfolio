@@ -49,12 +49,14 @@ html {
     background-size: cover;
     overflow-y: scroll;
     height: 100%;
+    padding: 0 0.8em;
 }
 
 body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    align-content: center;
 }
 
 .main {
