@@ -1,0 +1,56 @@
+// variables.scss
+
+$widescreen-max-width: 72em !default;
+
+$standard-font-family: 'Dekko' !default;
+$header-font-family: 'Permanent Marker', sans-serif !default;
+
+$base-color: #00f !default; // blue
+
+$header-color: #2d636f !default;
+$header-background: #fff;
+
+$nav-color: #75b7c8;
+$title-color: #0a2b33;
+$flash-img-background: rgba(122, 186, 200, 0.1);
+$border-line-color: $nav-color;
+$body-color: #444;
+
+
+$container-background: #46bda820;
+
+$h1-font-size: 2.5em;
+
+$grid-box-background: rgba(255, 255, 255, 0.5);
+
+$a-color: $nav-color;
+$a-hover-color: $base-color;
+
+$hr-border-color: $border-line-color;
+$hr-background: $grid-box-background;
+
+$th-color: $body-color;
+$th-border-color: $border-line-color;
+$th-background: $grid-box-background;
+
+$code-border: $border-line-color;
+$code-background: $grid-box-background;
+
+$pre-border: $border-line-color;
+$pre-background: $grid-box-background;
+
+$blockquote-border-left: $grid-box-background;
+
+$form-border-color: $border-line-color;
+$form-background: $header-background;
+$form-focus-border-color: $a-color;
+$form-focus-box-shadow: $a-color;
+$form-focus-hover-background: $grid-box-background;
+
+$fieldset-background: $grid-box-background;
+
+$byline-background: rgba(122, 186, 200, 0.6);
+$byline-a-color: #2f4f4f;
+
+$footer-a-color: rgb(221, 221, 221);
+$footer-a-hover-color: $header-background;

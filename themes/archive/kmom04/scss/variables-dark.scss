@@ -1,0 +1,57 @@
+// variables.scss
+
+$widescreen-max-width: 72em !default;
+
+$standard-font-family: 'Dekko' !default;
+$header-font-family: 'Permanent Marker',
+sans-serif !default;
+
+$base-color: #00f !default; // blue
+
+$nav-color: #46bda8;
+$title-color: #426cb3;
+
+$header-color: #42b37f;
+$header-background: rgba(0, 0, 0, 0.7);
+
+$flash-img-background: rgba(122, 186, 200, 0.1);
+$border-line-color: $nav-color;
+$body-color: #46bda8;
+
+$container-background: rgba(0, 0, 0, 0.3);
+
+$h1-font-size: 2.5em;
+
+$grid-box-background: rgba(0, 0, 0, 0.5);
+
+$a-color: #2eae9b;
+$a-hover-color: $header-color;
+
+$hr-border-color: $border-line-color;
+$hr-background: $grid-box-background;
+
+$th-color: $body-color;
+$th-border-color: $border-line-color;
+$th-background: $grid-box-background;
+
+$code-border: $border-line-color;
+$code-background: $grid-box-background;
+
+$pre-border: $border-line-color;
+$pre-background: $grid-box-background;
+
+$blockquote-border-left: $grid-box-background;
+
+$form-border-color: $border-line-color;
+$form-background: $grid-box-background;
+$form-focus-border-color: $a-color;
+$form-focus-box-shadow: $a-color;
+$form-focus-hover-background: $grid-box-background;
+
+$fieldset-background: $grid-box-background;
+
+$byline-background: $grid-box-background;
+$byline-a-color: #4692db;
+
+$footer-a-color: #4692db;
+$footer-a-hover-color: $header-color;
