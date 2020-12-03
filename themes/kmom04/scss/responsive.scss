@@ -136,6 +136,11 @@
     .container.kmom-grid-box.project {
         grid-column: span 2;
     }
+
+    td {
+        padding: 0.2em;
+        text-align: center;
+    }
 }
 
 @media (max-width: 640px) {
