@@ -16,6 +16,14 @@ Därför hade jag förväntat mig en djupare dykning i färgteorin samt praktisk
 Även med min tunna bakgrund inom färg kunde jag det mesta som togs upp på föreläsningarna
 men efteråt var endå dåligt förberedd för det praktiska arbetet.
 
+### Fix av anmärkning på kmom03
+
+> Fixa (till nästa kmom):
+> Det var tanken att side-baren döljs när sidan visas på en mindre enhet. Fixa det till nästa kmom
+
+Jag har gjort om hur many hanteras på smalare skärmar så att det blir en "hamburgermeny" som expanderas till en meny
+på samma sätt som huvudmeny hanteras (jag har anpassat det javaskript som fanns sedan tidigare).
+
 ### Skrivuppgiften
 
 Det har för min del varit väldigt tidskrävande med att samla in, omvandla, sammanställa och till slut analysera uppgifterna om de 3 webbplatserna.
