@@ -21,7 +21,7 @@ men efteråt var endå dåligt förberedd för det praktiska arbetet.
 > Fixa (till nästa kmom):
 > Det var tanken att side-baren döljs när sidan visas på en mindre enhet. Fixa det till nästa kmom
 
-Jag har gjort om hur many hanteras på smalare skärmar så att det blir en "hamburgermeny" som expanderas till en meny
+Jag har gjort om hur meny hanteras på smalare skärmar så att det blir en "hamburgermeny" som expanderas till en meny
 på samma sätt som huvudmeny hanteras (jag har anpassat det javaskript som fanns sedan tidigare).
 
 ### Skrivuppgiften
@@ -37,7 +37,7 @@ Utan några riktlinjer, exempel, genomgång av verktygen och avgränsningar är 
 - I nästa steg valde jag tillämpa en analog färgsammansättnignsregel. Till det använde jag Adobe Color-verktyge.  
   Nu i efterhand inser jag att det bättre alternativet skulle nog ha varit Paletton-verktyget.  
   Adobe Color har den dåliga vanan att "förstöra" arbetet så fort man drar i en av färgerna.
-  Det blev en hel del frustration under arbetet. Visserligen varnades det för i en av artiklarna men det om inte läsera allt först kommer denna information för sent.
+  Det blev en hel del frustration under arbetet. Visserligen varnades det för i en av artiklarna men har man inte läst denna text först kommer denna information för sent.
 
   Så det var inget medvetet val utan jag testat flera verktyg (Paletton stötte jag på först senare), tyckte att Adobe var mest intuitivt att använda,
   testade olika regel samt experimenterade i portfolion tills jag fick ett resultat som kändes någorlunda bra.
