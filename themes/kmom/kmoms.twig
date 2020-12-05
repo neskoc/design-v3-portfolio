@@ -33,10 +33,8 @@
                 <span class="sr-only">Toggle Menu</span>
             </a>
             {% if pages["_meta"].meta.logo %}
-                <div class="logo" aria-hidden="true">
-                    <a href="{{ "index"|link }}">
-                        <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
-                    </a>
+                <div class="logo">
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
                 </div>
             {% endif %}
             <div class="title" {{ pages["_meta"].meta.tagline ? ' class="tagline"' }}>
@@ -61,7 +59,7 @@
                 </div>
             </div>
             <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/flash.jpg?sc=banner1&a=40,0,0,0">
+              <img class="flash-img" src="{{ base_url }}/image/flash.jpg?sc=banner1&a=40,0,0,0" alt="flash image">
             </div>
         </div>
     </div>
