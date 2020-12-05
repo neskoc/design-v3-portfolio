@@ -1,4 +1,9 @@
 /*** BASIC LAYOUT: EXTRA SMALL DEVICES ***/
+@media (max-width: 992px) {
+    .container .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media (max-width: 767px) {
     .main {
@@ -119,41 +124,21 @@
     }
 }
 
-@media (min-width: 64em) {
+@media (max-width: 640px) {
     html {
         font-size: 112.5%;
     }
-}
 
-@media (max-width: 26em) {
-    html,
-    main,
-    body,
-    .byline,
-    .widescreen .container {
-        max-width: 24em;
-    }
-}
-
-@media (max-width: 950px) {
-    .container.report h1,
-    .container.kmom-grid-box.project {
-        grid-column: span 2;
+    .container.report h1 {
+        grid-column: span 1;
     }
 
-    td {
-        padding: 0.2em;
-        text-align: center;
+    .kmom-grid-box.project,
+    .kmom-grid-box {
+        grid-column: span 1;
     }
-}
 
-@media (max-width: 640px) {
-    .container,
-    .container {
-        &.report h1,
-        &.kmom-grid-box.project,
-        &.kmom-grid-box {
-            grid-column: span 1;
-        }
+    .container .gallery {
+        grid-template-columns: 1fr;
     }
 }

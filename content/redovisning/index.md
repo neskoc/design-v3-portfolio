@@ -15,7 +15,7 @@ Template: report
     </a>
 </div>
 <div class="kmom-grid-box">
-    < href="redovisning/kmoms/kmom02">
+    <a href="redovisning/kmoms/kmom02">
         <h2>kmom02</h2>
         <p>Redovisningssida för kmom02</p>
         <div class="arrow"><i class="fas fa-arrow-circle-right"></i></div>
@@ -36,7 +36,7 @@ Template: report
     </a>
 </div>
 <div class="kmom-grid-box">
-    < href="redovisning/kmoms/kmom05">
+    <a href="redovisning/kmoms/kmom05">
         <h2>kmom05</h2>
         <p>Redovisningssida för kmom05</p>
         <div class="arrow"><i class="fas fa-arrow-circle-right"></i></div>

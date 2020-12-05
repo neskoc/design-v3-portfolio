@@ -28,7 +28,7 @@
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <div class="header" role="banner">
         <div class="container">
-            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+            <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="0">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
             </a>
@@ -69,11 +69,13 @@
             <div class="gallery">
                 {% for image in meta.images %}
                     <div>
-                        <picture>
-                            <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{image.url}}?crop-to-fit&aspect-ratio=3:2">
-                            <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{image.url}}?w=667&crop-to-fit&aspect-ratio=3:2">
-                            <img src="{{ base_url }}/image/gallery/{{image.url}}?w=375&crop-to-fit&aspect-ratio=3:2" alt="{{ image.alt }}">
-                        </picture>
+                    <a href="{{ base_url }}/image/gallery/{{image.url}}" alt="{ image.alt }}" target="_blank">
+                            <picture>
+                                <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{image.url}}?crop-to-fit&aspect-ratio=3:2">
+                                <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{image.url}}?w=667&crop-to-fit&aspect-ratio=3:2">
+                                <img src="{{ base_url }}/image/gallery/{{image.url}}?w=375&crop-to-fit&aspect-ratio=3:2" alt="{{ image.alt }}">
+                            </picture>
+                        </a>
                     </div>           
                 {% endfor %}
             </div>
