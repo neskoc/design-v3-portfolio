@@ -67,17 +67,17 @@ __Samtliga färger upptäckta av CollorZilla__
         <td style="height: 35px; width: 35px; background-color: rgb(82, 87, 107); color: white">03</td>
         <td style="height: 35px; width: 35px; background-color: rgb(239, 240, 243); color: black">04</td>
         <td style="height: 35px; width: 35px; background-color: rgb(223, 224, 227); color: black">05</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(59, 89, 152); color: black">06</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(59, 89, 152); color: white">06</td>
         <td style="height: 35px; width: 35px; background-color: rgb(1, 63, 115); color: white">07</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(81, 127, 164); color: white">08</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(81, 127, 164); color: black">08</td>
         <td style="height: 35px; width: 35px; background-color: rgb(101, 107, 111); color: white">09</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(0, 172, 237); color: white">10</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(0, 172, 237); color: black">10</td>
     </tr>
 </table>
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr style="text-align: center">
-        <td style="height: 35px; width: 35px; background-color: rgb(66, 138, 165); color: white">11</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(248, 161, 45); color: white">12</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(66, 138, 165); color: black">11</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(248, 161, 45); color: black">12</td>
         <td style="height: 35px; width: 35px; background-color: rgb(187, 0, 0); color: white">13</td>
         <td style="height: 35px; width: 35px; background-color: rgb(0, 0, 0); color: white">14</td>
         <td style="height: 35px; width: 35px; background-color: rgb(2, 2, 2); color: white">15</td>
@@ -94,8 +94,8 @@ __Användning av färgerna för texter__
     <tr style="text-align: center">
         <td style="height: 35px; width: 35px; background-color: rgb(44, 48, 64); color: white">02</td>
         <td style="height: 35px; width: 35px; background-color: rgb(101, 107, 111); color: white">09</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(66, 138, 165); color: white">11</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(248, 161, 45); color: white">12</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(66, 138, 165); color: black">11</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(248, 161, 45); color: black">12</td>
         <td style="height: 35px; width: 35px; background-color: rgb(255, 255, 255); color: black">18</td>
     </tr>
 </table>
@@ -139,7 +139,7 @@ __Samtliga färger upptäckta av CollorZilla__
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr style="text-align: center">
         <td style="height: 35px; width: 35px; background-color: rgb(218, 26, 31); color: white">01</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(229, 41, 45); color: white">02</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(229, 41, 45); color: black">02</td>
         <td style="height: 35px; width: 35px; background-color: rgb(210, 0, 30); color: white">03</td>
         <td style="height: 35px; width: 35px; background-color: rgb(218, 225, 231); color: black">04</td>
         <td style="height: 35px; width: 35px; background-color: rgb(233, 65, 64); color: black">05</td>
@@ -155,11 +155,11 @@ __Samtliga färger upptäckta av CollorZilla__
     <tr style="text-align: center">
         <td style="height: 35px; width: 35px; background-color: rgb(85, 85, 85); color: white">11</td>
         <td style="height: 35px; width: 35px; background-color: rgb(86, 86, 86); color: white">12</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(119, 119, 119); color: white">13</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(136, 136, 136); color: white">14</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(170, 170, 170); color: white">15</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(204, 204, 204); color: white">16</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(212, 212, 212); color: white">17</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(119, 119, 119); color: black">13</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(136, 136, 136); color: black">14</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(170, 170, 170); color: black">15</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(204, 204, 204); color: black">16</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(212, 212, 212); color: black">17</td>
         <td style="height: 35px; width: 35px; background-color: rgb(221, 221, 221); color: black">18</td>
         <td style="height: 35px; width: 35px; background-color: rgb(224, 224, 224); color: black">19</td>
         <td style="height: 35px; width: 35px; background-color: rgb(230, 230, 230); color: black">20</td>
@@ -180,7 +180,7 @@ __Användning av färgerna för texter__
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr style="text-align: center">
         <td style="height: 35px; width: 35px; background-color: rgb(218, 26, 31); color: white">01</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(229, 41, 45); color: white">02</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(229, 41, 45); color: black">02</td>
         <td style="height: 35px; width: 35px; background-color: rgb(48, 48, 48); color: white">08</td>
         <td style="height: 35px; width: 35px; background-color: rgb(51, 51, 51); color: white">09</td>
         <td style="height: 35px; width: 35px; background-color: rgb(230, 230, 230); color: black">20</td>
@@ -242,19 +242,19 @@ __Samtliga färger upptäckta av CollorZilla__
         <td style="height: 35px; width: 35px; background-color: rgb(0, 52, 96); color: white">07</td>
         <td style="height: 35px; width: 35px; background-color: rgb(0, 48, 89); color: white">08</td>
         <td style="height: 35px; width: 35px; background-color: rgb(0, 31, 57); color: white">09</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(0, 153, 255); color: white">10</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(0, 153, 255); color: black">10</td>
     </tr>
 </table>
 
 <table style="border-spacing: 4px; border-collapse: separate">
     <tr style="text-align: center">
         <td style="height: 35px; width: 35px; background-color: rgb(0, 102, 153); color: white">11</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(94, 169, 208); color: white">12</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(94, 169, 208); color: black">12</td>
         <td style="height: 35px; width: 35px; background-color: rgb(1, 78, 114); color: white">13</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(113, 182, 213); color: white">14</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(42, 169, 224); color: white">15</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(123, 202, 225); color: white">16</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(0, 135, 170); color: white">17</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(113, 182, 213); color: black">14</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(42, 169, 224); color: black">15</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(123, 202, 225); color: black">16</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(0, 135, 170); color: black">17</td>
         <td style="height: 35px; width: 35px; background-color: rgb(245, 121, 33); color: black">18</td>
         <td style="height: 35px; width: 35px; background-color: rgb(212, 64, 50); color: black">19</td>
         <td style="height: 35px; width: 35px; background-color: rgb(255, 0, 0); color: black">20</td>
@@ -272,7 +272,7 @@ __Samtliga färger upptäckta av CollorZilla__
         <td style="height: 35px; width: 35px; background-color: rgb(37, 37, 37); color: white">27</td>
         <td style="height: 35px; width: 35px; background-color: rgb(85, 85, 85); color: white">28</td>
         <td style="height: 35px; width: 35px; background-color: rgb(102, 102, 102); color: white">29</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(128, 128, 128); color: white">30</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(128, 128, 128); color: black">30</td>
     </tr>
 </table>
 
@@ -294,7 +294,7 @@ __Användning av färgerna för texter__
         <td style="height: 35px; width: 35px; background-color: rgb(0, 0, 128); color: white">03</td>
         <td style="height: 35px; width: 35px; background-color: rgb(0, 82, 150); color: white">05</td>
         <td style="height: 35px; width: 35px; background-color: rgb(0, 53, 97); color: white">06</td>
-        <td style="height: 35px; width: 35px; background-color: rgb(113, 182, 213); color: white">14</td>
+        <td style="height: 35px; width: 35px; background-color: rgb(113, 182, 213); color: black">14</td>
         <td style="height: 35px; width: 35px; background-color: rgb(245, 121, 33); color: black">18</td>
         <td style="height: 35px; width: 35px; background-color: rgb(56, 55, 55); color: white">21</td>
         <td style="height: 35px; width: 35px; background-color: rgb(85, 85, 85); color: white">28</td>

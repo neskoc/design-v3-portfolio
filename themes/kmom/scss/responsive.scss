@@ -104,6 +104,10 @@
         vertical-align: middle;
     }
 
+    .container .gallery {
+        grid-template-columns: auto;
+    }
+
     .footer {
         p {
             padding: 1em 0;
