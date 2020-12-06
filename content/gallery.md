@@ -23,6 +23,6 @@ images:
     - alt: rost
       url: img9.jpg
 ---
-# Bildgalleri
+## Bildgalleri
 
 Bilder över rostangrepp på bromssystemet för bakhjulet tagna för någon vecka sedan i samband med byte till vinterdäck.

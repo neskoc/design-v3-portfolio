@@ -5,14 +5,14 @@ Date: 2020-11-30
 Template: analys
 ---
 
-# Färganalys av 3 webbplatser
+## Färganalys av 3 webbplatser
 
-Uppgiftern går ut på att välja tre webbplatser som skall analyseras utifrån typsnitt och färgval. 
+Uppgiften går ut på att välja tre webbplatser som skall analyseras utifrån typsnitt och färgval. 
 Urval kan bestå av aningen samma kategori av webbplatser, eller helt olika kategorier.
 
-## Urval
+### Urval
 
-Jag har valt följande kattegori: __turistwebbplatser__ och inom den kategorin följande webbplatser:
+Jag har valt följande kategori: __turistwebbplatser__ och inom den kategorin följande webbplatser:
 
 1.  [Cypern](https://www.visitcyprus.com)
 2.  [Basel - Schweiz](https://www.basel.com)
@@ -23,11 +23,7 @@ Jag sparade undan ett antal som jag tyckte extra mycket om.
 Nu har jag gått igenom denna lista för att kolla vad som hänt sedan dess.
 Dessutom lade jag till en ny webbplats som togs fram i år (Cypern).
 
-## Metod
-
-Berätta kort om din "metod", hur du gör för att utföra undersökningen. Berätta om du använder något speciellt verktyg.
-
-### Verktyg
+#### Verktyg
 
 - __Colorzilla__ för att få fram samtliga färger
 - __Mozilla DevTools__ för att få specifika färger samt detaljerna om fonterna
@@ -35,12 +31,9 @@ Berätta kort om din "metod", hur du gör för att utföra undersökningen. Ber�
 - __Internet__ för att få info om fonterna (olika källor)
 - __BuiltWith__ för att kolla om det är någon särskild teknologi som används exempelvis Bootstrap ramverk för Chile
 
-## Resultat
-
 ### Chile
 
-![Chile](%assets_url%/img/
-Chile-screenshot.png "Chile"){.image}
+![Chile](%assets_url%/img/Chile-screenshot.png "Chile"){.image}
 
 #### Fonter:
 
@@ -121,8 +114,7 @@ Så färgvalet matchar vad man kan förvänta sig av turismwebbsidan om Chile.
 
 ### Basel
 
-![Basel](%assets_url%/img/
-Basel-screenshot.png "Basel"){.image}
+![Basel](%assets_url%/img/Basel-screenshot.png "Basel"){.image}
 
 #### Fonter:
 
@@ -210,8 +202,7 @@ Detta var också förväntat.
 
 ### Cypern
 
-![Cypern](%assets_url%/img/
-Cyprus-screenshot.png "Cypern"){.image}
+![Cypern](%assets_url%/img/Cyprus-screenshot.png "Cypern"){.image}
 
 #### Fonter:
 
@@ -328,6 +319,6 @@ Innan dess hade det funnits en facebook-sida vilken faktiskt varit väldigt bra 
 
 Jag tycker att de har lyckat väldigt bra och det är tydligt att man lagt stora resurser för detta.
 
-## Övrigt
+### Övrigt
 
 __Författare__: Nenad Cuturic.
