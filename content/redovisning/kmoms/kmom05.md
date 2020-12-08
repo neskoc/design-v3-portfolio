@@ -10,7 +10,7 @@ Template: kmoms
 ### Street art i Basel
 
 <div class="embed-container">
-  <iframe src="https://www.youtube.com/embed/pQqINeRH_zU?playlist=pQqINeRH_zU&loop=1&autoplay=1&controls=0&modestbranding=1" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+  <iframe  title="Street art i Basel" src="https://www.youtube.com/embed/pQqINeRH_zU?playlist=pQqINeRH_zU&loop=1&autoplay=1&controls=0&modestbranding=1" frameborder="0" allow="autoplay" allowfullscreen></iframe>
 </div>
 
 ### Redovisning
