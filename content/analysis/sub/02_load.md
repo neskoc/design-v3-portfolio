@@ -73,7 +73,7 @@ För att eliminera påverkan av tidigare mellanlagringar i början av Network-m�
 Detta syns tydligt (ej redovisat) i mängden data som hämtas från källan/källor under första besöket.
 
 Ett intressant observerat fenomen är att vissa (under)sidor med olika mellanrum hämtar dynamiskt mer data så om jag lämnar sidan med Network-analysen uppe
-kommer värdena i synerhet nedladningstiden öka/hoppa med (o)jämna mellanrum vilket Basels första sida är tydlig exempel på.
+kommer värdena i synnerhet nedladdningstiden öka/hoppa med (o)jämna mellanrum vilket Basels första sida är tydlig exempel på.
 Det är också indikation på att de har valt att snabba upp första visningen och att efterföljande data (bilder för det mesta i en "carousell") hämtas senare
 då ny information skall presenteras.
 
