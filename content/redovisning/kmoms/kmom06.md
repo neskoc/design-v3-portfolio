@@ -11,7 +11,7 @@ Template: kmoms
 
 Som en person med väldigt stark teknisk och tunn designbakgrund känner jag mig fortfarande ganska osäker inom designområdet. Det är en del nya termer som fortfarande inte lagt sig och jag tänker fortfarande väldigt mycket i tekniska termer även inom designområdet.
 
-Reflexsmässigt ser jag design genom tekniska mått som storlek, mängd, antal osv. i stället som en visuell och funktionell helhet. Det krävs nog att man arbetar mer med design för att bli av med (en del) av detta. Så jag får kämpa en hel del att inte hela tiden falla tillbaka till tekniken.  
+Reflexmässigt ser jag design genom tekniska mått som storlek, mängd, antal osv. i stället som en visuell och funktionell helhet. Det krävs nog att man arbetar mer med design för att bli av med (en del) av detta. Så jag får kämpa en hel del att inte hela tiden falla tillbaka till tekniken.  
 Den nyttigaste delen av denna uppgift är att jag blev tvingad att tänka mer på helhetsbilden som en webbdesigner och inte som en tekniker (hur mycket jag nu har lyckats med det).
 
 Som jag förklarat i analysdelen har jag valt att inte göra några förändringar i din design trots de identifierade bristerna (de kände jag till även innan). Min erfarenhet är att ändringarna lätt leder till följdproblem vilket i sin tyr resulterar i många timmars arbete. Personligen har jag svårt att hålla fingrarna i styr och börjar jag peta i en sak har jag svårt att kontrollera mig att inte börja ändra i massa annat också.
