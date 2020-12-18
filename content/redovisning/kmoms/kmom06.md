@@ -21,6 +21,6 @@ Jag har haft en ganska bra uppfattning av vad en webbdesign är för något. Men
 __TIL__: En hel del begrepp inom design jag känt till har nu fått en tydligare bild i mitt huvud. Jag har nu en mycket bättre grund för en fruktbar diskussion om design och med äkta design-folk. Design känns nu också inte lika skrämmande som tidigare fast jag är medveten om att det finns många luckor kvar.
 
 Komplettering (missat att skriva om det):  
-På analyssidan har jag samplat färger från den analyserade sidan (Moon of Alabama) och därför klarar det inte Lighthouse effekten just på det fältet (td) i tabellen.
+På analyssidan har jag samplat färger från den analyserade sidan (Moon of Alabama) och därför klarar det inte Lighthouse testet där (td-fältet) i tabellen.
 Lighthouse analys bör därför ha undantag där för felet ligger inte i min analys utan på den analyserade sidan.
 Även en person med funktionsnedsättning vad det gäller syn kommer ha nytta av den informationen.
